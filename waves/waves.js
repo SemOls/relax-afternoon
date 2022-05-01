@@ -1,3 +1,11 @@
+const button = document.querySelector("#myButton");
+button.addEventListener("click", start);
+function start () {
+document.querySelector("#player").play();
+document.querySelector("myVideo").play();
+}
+
+
 const timer = 3;
 let amounTaimer= timer*60;
 
